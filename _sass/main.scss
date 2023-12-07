@@ -1,0 +1,35 @@
+.nav_item_unclicked {
+  color: white; //字体颜色
+  background-color: black; //背景颜色
+  flex: 1; //充满弹性容器
+  text-decoration: none; //文本无下划线
+  text-align: center; //文本居中
+  border-right: 1px solid #bbb //右边框
+}
+.nav_item_unclicked:hover {
+  background-color: #505e7c;
+}
+.nav_item_unclicked:last-child {
+  border-right: none;
+}
+.nav_item_clicked {
+  color: black;
+  background-color: #e8e8e8;
+  flex: 1;
+  text-decoration: none;
+  text-align: center;
+  border-right: 1px solid #bbb
+}
+.nav_item_clicked:hover {
+  background-color: #505e7c;
+}
+.nav_item_clicked:last-child {
+  border-right: none;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex; //弹性容器
+  flex-direction: row; //弹性容器中元素水平放置
+}

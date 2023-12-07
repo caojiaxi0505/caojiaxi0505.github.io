@@ -1,0 +1,16 @@
+---
+layout: blogpage
+title: 笔记
+---
+<h1 style="margin: 2%;">最新发布</h1>
+<ul style="margin: 2%;">
+    {% for post in site.posts %}
+    {% if post.type== "study" %}
+    <li>
+
+        <h2><a href="{{ post.url }}" style="text-decoration: none; color: indigo;">{{ post.title }}</a></h2>
+        {{ post.date | date_to_long_string }}
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>

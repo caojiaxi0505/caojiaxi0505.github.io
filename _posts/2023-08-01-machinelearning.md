@@ -1,7 +1,7 @@
 ---
-title: 机器学习笔记
-author: caojiaxi
 layout: post
+author: caojiaxi
+title: 机器学习笔记
 type: study
 ---
 

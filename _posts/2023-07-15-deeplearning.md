@@ -1,7 +1,7 @@
 ---
-title: 深度学习笔记
-author: caojiaxi
 layout: post
+author: caojiaxi
+title: 深度学习笔记
 type: study
 ---
 

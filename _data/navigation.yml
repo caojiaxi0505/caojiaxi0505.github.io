@@ -1,0 +1,4 @@
+- name: 主页
+  link: /
+- name: 学习记录
+  link: /blogpage.html
