@@ -1,13 +1,4 @@
 <nav class="nav">
-  <!-- <ul>
-    {% for item in site.data.navigation %}
-    <li>
-      <a herf="{{ item.link }}" {% if page.url==item.link %} class="nav_item_clicked" {% endif %}
-        class="nav_item_unclicked">
-      </a>
-    </li>
-    {% endfor %}
-  </ul> -->
   {% for item in site.data.navigation %}
   <a href="{{ item.link }}" {% if page.url==item.link %} class="nav_item_clicked" {% endif %}
     class="nav_item_unclicked">{{ item.name }}</a>
